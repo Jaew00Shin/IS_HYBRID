@@ -7,7 +7,7 @@ endif()
 set(CMAKE_CXX_FLAGS_RELEASE "-O3")
 
 # PLEASE INPUT YOUR TEAM NAME AND RECOMPLIE
-set(TEAM_NAME "RLLAB")
+set(TEAM_NAME "HYBRID")
 
 find_package(catkin REQUIRED COMPONENTS
   std_msgs
@@ -35,7 +35,7 @@ include_directories(
 )
 
 catkin_install_python(PROGRAMS
-  project/IS_${TEAM_NAME}/project/${TEAM_NAME}_project1.py
+  project/IS_HYBRID/project/HYBRID_project1.py
 
 
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
